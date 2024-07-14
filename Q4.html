@@ -1,0 +1,38 @@
+<script type="text/javascript">
+    let a = parseInt(prompt("Enter NUmber od :- A"))
+    let b = parseInt(prompt("Enter NUmber od :- B"))
+    let c = parseInt(prompt("Enter NUmber od :- C"))
+    let d = parseInt(prompt("Enter NUmber od :- D"))
+
+    console.log(`A=${a},B=${b},C=${c},D=${d}`);
+
+    if (a >= b) {
+        if (a >= c) {
+            if (a >= d) {
+                console.log(`The A is Max = ${a}`);
+            } else {
+                console.log(`The D is Max = ${d}`);
+            }
+        } else {
+            if (c >= d) {
+                console.log(`The C is Max = ${c}`);
+            } else {
+                console.log(`The D is Max = ${d}`);
+            }
+        }
+    } else {
+        if (b >= c) {
+            if (b >= d) {
+                console.log(`The B is Max = ${b}`);
+            } else {
+                console.log(`The D is Max = ${d}`);
+            }
+        } else {
+            if (c >= d) {
+                console.log(`The C is Max = ${c}`);
+            } else {
+                console.log(`The D is Max = ${d}`);
+            }
+        }
+    }
+</script>
